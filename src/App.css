@@ -1,0 +1,332 @@
+.container{
+
+display: grid;
+grid-template-columns: repeat(12,2fr);
+grid-template-rows: 50px  627px ;
+grid-template-areas: 
+ "h h h h h h h h h h h h "
+ "f f f f f f f f f f f f ";
+
+}
+
+.containertwo{
+background: #FFDD00;
+width: 100%;
+
+}
+
+
+
+.cardDesign{
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(to bottom, #0b087c, #32097f, #490d81, #5b1384, #6c1a86);  border-radius: 15px;
+  margin-left: 0px;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-top: 60px;
+  
+  position: relative;
+  display: block;
+  
+  
+
+}
+
+.cardDesign h5{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cityicon{
+  position: relative;
+  height: 200px;
+  width: 280px;
+  margin-top: 20px;
+  right: 50px;
+  left: 7px;
+}
+.plusicon{
+ width: 150px;
+ margin: 20px 75px 0px;
+}
+.formdesign{  
+  position: relative;
+  box-sizing: border-box;
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 100px;
+  height: 200px;
+  background:  #fff; 
+  
+  ;
+  text-align: center;
+  border-radius: 2px 2px 5px 5px;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.closetheicon{
+  float: right;
+  width: 25px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.inputshape{
+  margin-top: 16px;
+  margin-left: 0px;
+  height: 25px;
+  width:90%;
+}
+.formbtn{
+ margin-top: 30px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+
+  background:linear-gradient(to right bottom, #12087B,#651986) ; 
+}
+.usaflag{
+ margin-top: 10px;
+  margin-left: 9px;
+  width:120px; 
+  height:60px;
+}
+.weatherlist{
+  
+  position:fixed;
+  display: grid;
+  grid-gap: 50px;
+  grid-auto-flow: column;
+  left: 60px;
+  bottom: 130px;
+  margin-top: 40px;
+  height: 90%;
+  overflow-x: scroll;
+  width: 100%;
+  overflow-wrap: normal;
+  /*
+  width:100%;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  height: 90%;
+  */
+ /*
+  display: flex; 
+  flex-wrap: nowrap; 
+  
+  overflow-x: auto; 
+  background: red;
+  */
+
+}
+
+.btnclicktoid{
+  width: 300px;
+  height: 500px;
+  background: yellow;
+  background-image: linear-gradient(to bottom, #0b087c, #32097f, #490d81, #5b1384, #6c1a86);  border: saddlebrown;
+  border-radius: 5%;
+  position: relative;
+  margin-top: 60px;
+
+}
+
+
+.cityName{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  
+}
+.weathericoncard{
+ height: 150px;
+ width: 200px;
+ position: relative;
+ left: 35px;
+ bottom: 20px;
+
+
+}
+.weathericoncard img{
+  width: 100%;
+  
+}
+.tempo{
+  width: 100%;
+  height: 15%;
+   margin-top: 10px;
+  text-align: center;
+
+}
+
+.maintempcard{
+  position: relative;
+  color:white;
+  font-size: 60px;
+ bottom: 15px;
+  
+}
+.weathercarddescription{
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.maxtempdiv{
+  position: relative;
+  margin-top: 90px;
+ text-align: center;
+  justify-content: center;
+}
+.maxtempcardtext{
+  position: relative;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  float: right;
+  bottom: 100px;
+  right:50px;
+}
+.maxpred{
+  color: #e74c3c;
+  position: relative;
+  left: 88px;
+  bottom: 55px;
+  font-size: 15px;
+}
+.maxtempdiv img{
+  width: 20px;
+  position: relative;
+  left: 93px;
+  bottom: 70px;
+}
+.mintempdiv{
+  margin-top: 90px;
+  width: 1%;
+  height: 1%;
+  color: red;
+  text-align: center;
+  justify-content: center;
+  float: left;
+  position: relative;
+}
+.mintempcard{
+  position: relative;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  bottom: 195px;
+  left: 40px;
+}
+.mintempdiv p{
+  color: #2ECC71;
+  position: relative;
+  left: 40px;
+  bottom: 245px;
+  font-size: 15px;
+}
+.mintempdiv img{
+  width: 20px;
+  position: relative;
+  left: 40px;
+  bottom: 140px;
+
+}
+/*  change style on toggle in the first page  ////////////////////////////*/
+
+.containertwonew{
+  background: white;
+  grid-area: f;
+
+  
+
+}
+
+
+
+.btnclicktoidnew{
+  width: 300px;
+  height: 500px;
+  border-radius: 5%;
+  background: white;
+  border: none;
+  position: relative;
+  margin-top: 60px;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+
+
+}
+.cityNamenew{
+  color: black;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  
+}
+.maintempcardnew{
+  position: relative;
+  color:black;
+  font-size: 60px;
+ bottom: 15px;
+  
+}
+
+.weathercarddescriptionnew{
+  color: black;
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.maxtempcardtextnew{
+  position: relative;
+  font-size: 30px;
+  color: black;
+  font-weight: 100;
+  float: right;
+  bottom: 100px;
+  right:50px;
+}
+.mintempcardnew{
+  position: relative;
+  font-size: 30px;
+  color: black;
+  font-weight: 100;
+  bottom: 195px;
+  left: 40px;
+}
+
+.cardDesignnew{
+  width: 300px;
+  height: 500px;
+  background: white;
+  margin-left: 0px;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-top: 60px;
+  
+  border-radius: 5%;
+  position: relative;
+  
+  
+
+}
+.cardDesignnew h5{
+  color:black;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* secondpage new*/
+
+/*  ///////////////////////////////////////////////////// ///////////////////////*/
