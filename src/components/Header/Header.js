@@ -1,6 +1,5 @@
  import React, { Component } from 'react';
  import Switch from "react-switch";
- import menu from '../../icons/menu.svg';
  import Moment from 'react-moment';
  import { changestyle } from '../../Actions/weather_actions';
  import { connect } from 'react-redux';
@@ -40,13 +39,7 @@
    render() {
      return (
        <div className={classnames({"header":this.props.changeStyle},{"headernew":!this.props.changeStyle}) }>
-       <div  style={{marginLeft:10,marginTop:6}} ><i
-
-       style={{color:'white',fontSize:35}} 
-       class="fas fa-bars"></i></div>
-         <div className="logodiv">
-           logo
-         </div>
+      
           <div className={classnames({"datediv":this.props.changeStyle},{"datedivnew":!this.props.changeStyle}) } >
          <h5>{this.renderDate()}</h5>
          </div>

@@ -11,7 +11,7 @@ grid-template-areas:
 
 .containertwo{
 background: #FFDD00;
-width: 100%;
+width: 1364px;
 
 }
 
@@ -20,7 +20,8 @@ width: 100%;
 .cardDesign{
   width: 300px;
   height: 500px;
-  background-image: linear-gradient(to bottom, #0b087c, #32097f, #490d81, #5b1384, #6c1a86);  border-radius: 15px;
+  background: black ;  
+  border-radius: 15px;
   margin-left: 0px;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
   margin-top: 60px;
@@ -30,6 +31,53 @@ width: 100%;
   
   
 
+}
+
+.weatherListContainer{
+  margin-left: 490px;
+  margin-top: -560px;
+}
+
+.searchformcontainer{
+  margin-left:100px;
+}
+
+.backbtncoursel{
+  position: absolute;
+  right: 1280px;
+  top: 280px;
+  background: transparent;
+
+}
+
+.backbtncoursel i {
+  font-size:70px;
+  color: black;
+}
+
+.buttonBack___1mlaL{
+  background: transparent;
+  border: none;
+  
+}
+
+.nextbtncoursel{
+  position: absolute;
+  top: 280px;
+  left: 1280px;
+
+
+
+}
+
+.buttonNext___2mOCa{
+  background: transparent;
+  border: none;
+
+}
+.nextbtncoursel i {
+  font-size:70px;
+  color: #FFDD00;
 }
 
 .cardDesign h5{
@@ -81,10 +129,10 @@ width: 100%;
  margin-top: 30px;
   height: 40px;
   border-radius: 15px;
-  color: white;
+  color: black;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
 
-  background:linear-gradient(to right bottom, #12087B,#651986) ; 
+  background:#FFDD00 ; 
 }
 .usaflag{
  margin-top: 10px;
@@ -124,11 +172,10 @@ width: 100%;
 .btnclicktoid{
   width: 300px;
   height: 500px;
-  background: yellow;
-  background-image: linear-gradient(to bottom, #0b087c, #32097f, #490d81, #5b1384, #6c1a86);  border: saddlebrown;
+  background: black ;  
   border-radius: 5%;
-  position: relative;
   margin-top: 60px;
+  margin-right: 90px;
 
 }
 
@@ -180,32 +227,29 @@ width: 100%;
   
 }
 .maxtempdiv{
-  position: relative;
-  margin-top: 90px;
+  margin-top:0px;
  text-align: center;
   justify-content: center;
 }
 .maxtempcardtext{
-  position: relative;
   font-size: 30px;
   color: white;
   font-weight: 100;
   float: right;
-  bottom: 100px;
-  right:50px;
+  margin-right:50px;
+  margin-top: 30px;
 }
 .maxpred{
   color: #e74c3c;
-  position: relative;
-  left: 88px;
-  bottom: 55px;
   font-size: 15px;
+  float: right;
+  margin-top: 70px;
+  margin-right: -21px;
 }
 .maxtempdiv img{
   width: 20px;
-  position: relative;
-  left: 93px;
-  bottom: 70px;
+  margin-right: -240px;
+  margin-top: 10px;
 }
 .mintempdiv{
   margin-top: 90px;
@@ -314,9 +358,8 @@ width: 100%;
   margin-left: 0px;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
   margin-top: 60px;
-  
   border-radius: 5%;
-  position: relative;
+  margin-left: 60px;
   
   
 

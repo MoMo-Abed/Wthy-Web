@@ -11,7 +11,7 @@ import classnames from 'classnames';
      constructor(props){
          super(props);
          this.state={
-           city: '',
+           city: 'cairo',
            showSearchForm: false,
            hidecardelements: true,
            removeform: false

@@ -7,19 +7,18 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 export default class app extends Component {
   render() {
     return (
+<React.Fragment>
 
+ 
+<div className="searchformcontainer" >
 
-        <CarouselProvider
-    
-        totalSlides={3}
-      >
-        <Slider>
-          <Slide index={0}><SearchForm/>
-</Slide>
-          <Slide index={2}>        <WeatherList/>
-</Slide>
-        </Slider>
-      </CarouselProvider>
+        <SearchForm/>
+        </div>
+        <div className="weatherListContainer" >
+
+          <WeatherList/>
+          </div>
+          </React.Fragment>
 
      
  );
