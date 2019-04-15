@@ -22,7 +22,7 @@ export function switchCode (id){
         case 230:
         case 231:
         case 232: 
-         return <img src={storm}  alt="storm"/>
+         return <img src={storm} style={{width:400,height:400}} alt="storm"/>
            
    
          case 300:
@@ -34,7 +34,7 @@ export function switchCode (id){
          case 313:
          case 314:
          case 321:
-         return <img src={cloudywithrain}  alt="cloudywithrain"/>
+         return <img src={cloudywithrain} style={{width:400,height:400}} alt="cloudywithrain"/>
            
    
          case 500:
@@ -42,13 +42,13 @@ export function switchCode (id){
          case 502:
          case 503:
          case 504:
-         return <img src={sunwithcloudwithrain}  alt="sunwithcloudwithrain"/>
+         return <img src={sunwithcloudwithrain}  style={{width:300,height:300,marginLeft:50,marginTop:50}} alt="sunwithcloudwithrain"/>
          case 511:
          case 520:
          case 521:
          case 522:
          case 531:
-         return <img src={cloudywithrain} alt="cloudy"/>
+         return <img src={cloudywithrain} style={{width:400,height:400}} alt="cloudy"/>
              
    
          case 600:
@@ -61,7 +61,7 @@ export function switchCode (id){
          case 620:
          case 621:
          case 622:
-         return <img src={snow}  alt="snow"/>
+         return <img src={snow} style={{width:400,height:400}} alt="snow"/>
              
    
          case 701:
@@ -74,22 +74,22 @@ export function switchCode (id){
          case 762:
          case 771:
          case 781:
-         return <img src={mist} alt="mist"/>
+         return <img src={mist} style={{width:400,height:400}} alt="mist"/>
            
    
          case 800:
-         return <img src={day}  alt="sunny"/>
+         return <img src={day} style={{width:400,height:400}} alt="sunny"/>
           
    
          case 801:
-         return <img src={sunwithcloud}  alt="sunwithcloud"/>
+         return <img src={sunwithcloud} style={{width:400,height:400}} alt="sunwithcloud"/>
 
          case 802:
-         return <img src={cloudy}  alt="cloud"/>
+         return <img src={cloudy} style={{width:400,height:400}} alt="cloud"/>
 
          case 803:
          case 804:
-         return <img src={cloudy}  alt="brokenclouds"/>
+         return <img src={cloudy} style={{width:400,height:400}} alt="brokenclouds"/>
            
    
       }

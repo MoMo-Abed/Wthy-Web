@@ -27,6 +27,7 @@ import './Style.css';
   renderweather(){
     const {activeWeather} = this.props;
     let cityName;
+    let citycountry;
     let tempToday;
     let TempDescToday;
     let TempHumidityToday;
@@ -42,6 +43,7 @@ import './Style.css';
     else{
         
             cityName = activeWeather.city.name;
+            citycountry = activeWeather.city.country;
             tempToday = activeWeather.list[0].main.temp.toFixed();
             TempDescToday = activeWeather.list[0].weather[0].description;
             TempHumidityToday = activeWeather.list[0].main.humidity;
@@ -70,7 +72,7 @@ import './Style.css';
                         </div>
                         
                     </div>
-                   <h4 className="citynamebigcard">{cityName},US</h4>
+                   <h4 className="citynamebigcard">{cityName},{citycountry}</h4>
                    </div>
                    <div className="secondboxcolum">
                    <div className="bigcardweatherdata">

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import renderweathercard from '../components/SecondPage/renderweathercard';
+import renderweathercard from '../SecondPage/renderweathercard';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import app from './app';
-import Header from '../components/Header/Header';
+import Header from '../Header/Header';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 
-class Renderall extends Component {
+class Index extends Component {
   render() {
     return (
        
@@ -38,4 +38,4 @@ const mapStateToProps = state => ({
   changeStyle: state.weather.changeStyle
 })
 
-export default connect (mapStateToProps)(Renderall);
+export default connect (mapStateToProps)(Index);

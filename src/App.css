@@ -42,9 +42,10 @@ width: 1364px;
   margin-left:100px;
 }
 
+
 .backbtncoursel{
   position: absolute;
-  right: 1280px;
+  right: 1270px;
   top: 280px;
   background: transparent;
 
@@ -94,9 +95,11 @@ width: 1364px;
   right: 50px;
   left: 7px;
 }
-.plusicon{
- width: 150px;
- margin: 20px 75px 0px;
+.cardDesign i{
+  color: #FFDD00;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-top: 120px;
 }
 .formdesign{  
   position: relative;
@@ -123,16 +126,18 @@ width: 1364px;
   margin-top: 16px;
   margin-left: 0px;
   height: 25px;
-  width:90%;
+  width:95%;
+  border: none;
+  
 }
 .formbtn{
  margin-top: 30px;
   height: 40px;
   border-radius: 15px;
-  color: black;
+  color: #FFDD00;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
 
-  background:#FFDD00 ; 
+  background:black; 
 }
 .usaflag{
  margin-top: 10px;
@@ -153,19 +158,6 @@ width: 1364px;
   overflow-x: scroll;
   width: 100%;
   overflow-wrap: normal;
-  /*
-  width:100%;
-  overflow-wrap: normal;
-  overflow-x: scroll;
-  height: 90%;
-  */
- /*
-  display: flex; 
-  flex-wrap: nowrap; 
-  
-  overflow-x: auto; 
-  background: red;
-  */
 
 }
 
@@ -191,10 +183,10 @@ width: 1364px;
 .weathericoncard{
  height: 150px;
  width: 200px;
- position: relative;
- left: 35px;
- bottom: 20px;
-
+margin-top: -170px;
+padding-bottom: 100px;
+padding-top: 50px;
+margin-left: -60px;
 
 }
 .weathericoncard img{
@@ -219,9 +211,9 @@ width: 1364px;
 .weathercarddescription{
   color: white;
   font-size: 14px;
+  margin-top: -70px;
+  margin-right: 20px;
   font-weight: 100;
-  position: relative;
-  bottom: 70px;
   text-align: center;
   text-transform: uppercase;
   
@@ -246,41 +238,53 @@ width: 1364px;
   margin-top: 70px;
   margin-right: -21px;
 }
-.maxtempdiv img{
-  width: 20px;
+.maxtempdiv i{
+  font-size: 25px;
   margin-right: -240px;
   margin-top: 10px;
+  color: #e74c3c;
 }
 .mintempdiv{
-  margin-top: 90px;
-  width: 1%;
-  height: 1%;
   color: red;
   text-align: center;
   justify-content: center;
   float: left;
-  position: relative;
+  margin-top: -100px;
+  margin-left: 40px;
 }
+
+
+
+
+
+
+
+
 .mintempcard{
-  position: relative;
   font-size: 30px;
+  margin-top: -5px;
+
+
+
   color: white;
   font-weight: 100;
-  bottom: 195px;
-  left: 40px;
 }
 .mintempdiv p{
   color: #2ECC71;
-  position: relative;
-  left: 40px;
-  bottom: 245px;
+  margin-top: -45px;
+  
+
+
+  
   font-size: 15px;
 }
-.mintempdiv img{
-  width: 20px;
-  position: relative;
-  left: 40px;
-  bottom: 140px;
+.mintempdiv i{
+  margin-top: 70px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: -10px;
+  color: #59FFB4;
+
 
 }
 /*  change style on toggle in the first page  ////////////////////////////*/
@@ -299,11 +303,11 @@ width: 1364px;
   width: 300px;
   height: 500px;
   border-radius: 5%;
-  background: white;
+  background-image: linear-gradient(#59FFB4, #2CC8E1);;
   border: none;
-  position: relative;
   margin-top: 60px;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-right: 90px;
 
 
 }
@@ -326,50 +330,110 @@ width: 1364px;
 .weathercarddescriptionnew{
   color: black;
   font-size: 14px;
+  margin-top: -70px;
+  margin-right: 20px;
   font-weight: 100;
-  position: relative;
-  bottom: 70px;
   text-align: center;
   text-transform: uppercase;
   
+  
 }
 .maxtempcardtextnew{
-  position: relative;
-  font-size: 30px;
   color: black;
+  font-size: 30px;
   font-weight: 100;
   float: right;
-  bottom: 100px;
-  right:50px;
+  margin-right:50px;
+  margin-top: 30px;
+  
 }
 .mintempcardnew{
-  position: relative;
-  font-size: 30px;
   color: black;
+  font-size: 30px;
+  margin-top: -5px;
   font-weight: 100;
-  bottom: 195px;
-  left: 40px;
 }
 
 .cardDesignnew{
   width: 300px;
   height: 500px;
-  background: white;
-  margin-left: 0px;
+  background-image: linear-gradient(#59FFB4, #2CC8E1);
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
   margin-top: 60px;
-  border-radius: 5%;
-  margin-left: 60px;
-  
-  
+  border-radius: 15px;
+}
+
+.cardDesignnew i{
+
+  color: black;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-top: 120px;
 
 }
+
 .cardDesignnew h5{
   color:black;
   text-align: center;
   font-size: 20px;
 }
 
-/* secondpage new*/
 
-/*  ///////////////////////////////////////////////////// ///////////////////////*/
+.mintempdivnew{
+  text-align: center;
+  justify-content: center;
+  float: left;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.mintempcard{
+  font-size: 30px;
+  margin-top: -5px;
+
+
+
+  color: white;
+  font-weight: 100;
+}
+.mintempdivnew p{
+  color: black;
+  margin-top: -45px;
+  
+
+
+  
+  font-size: 15px;
+}
+.mintempdivnew i{
+  margin-top: 70px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: -10px;
+  color: black;
+
+
+}
+
+.nextbtncourselnew{
+  position: absolute;
+  top: 280px;
+  left: 1280px;
+
+
+
+}
+
+
+.nextbtncourselnew i {
+  font-size:70px;
+  color: black;
+}
+

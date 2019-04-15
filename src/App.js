@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './store';
-import Renderall from './components/renderall';
+import Index from './components/FirstPage/Index'
 
 class App extends Component {
   render() {
     return (
        <Provider store={store}>
-        <Renderall/>
+        <Index/>
       </Provider>
     );
   }
